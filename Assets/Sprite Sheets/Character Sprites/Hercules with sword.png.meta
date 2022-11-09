@@ -1,0 +1,4688 @@
+fileFormatVersion: 2
+guid: 1515553c5ea77f949ba2674c970a7f41
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hercules with sword_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2049
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9854a64b0f43f842af88a14792d0385
+      internalID: -728433607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2049
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609f98dcdecb8874ea5beac9f9dbabcb
+      internalID: 98919498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 2049
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b52e66834466dc4680f6a7d885745f3
+      internalID: -1100737829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2049
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b2bb6956011c4479c009025c263230
+      internalID: 1588115320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_4
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 2049
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52b1cddc693a544481f59b9f2b9e722
+      internalID: -96043173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2049
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8a1cc8b29180847ae5adac2f960d3b
+      internalID: -440593110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_6
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2049
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254364f67a3b79542b71347edab1da95
+      internalID: 1434507634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2074
+        width: 65
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0eb6c2c9a5082845b9c4b9c66a32afb
+      internalID: 798514484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1985
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98493f6045128346a6b2d7ff8c1d828
+      internalID: 711203560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_9
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1985
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a47a5e0d489d5a43bdf3ec36ff65f7a
+      internalID: 657774204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_10
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1985
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26b77ee4870c20479bd48466d04b277
+      internalID: -1665757206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_11
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1985
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b1c3d50172941448615876062fe4c1
+      internalID: -1515569344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_12
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1985
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e346c56b38e17a41a9223a39c2e690d
+      internalID: 344177077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_13
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1985
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734165ad048b48e4fad3d5c5b4c42726
+      internalID: -131525781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_14
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1985
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58dff918864fce468faefbb6be66ce8
+      internalID: 2073622642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_15
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1921
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551a7f8688e326847bfa7461dfca961a
+      internalID: 2121800695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_16
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1921
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed99e1a695245dd4fb45ef1feb3ac68a
+      internalID: -926919166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_17
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1921
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb22102a5207e3b4187918321da5fabf
+      internalID: -1230860478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_18
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1921
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea1210973570d349a003f1df7699c54
+      internalID: 1301396201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_19
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1921
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b3bd3f3c0d5c34488cea293219b61d
+      internalID: 540861668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_20
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1921
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a488ff063f28a9049b27a7599e6aba2f
+      internalID: 779272349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_21
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1921
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a9faa38f4bcf94685684ed536b7d73
+      internalID: 252263654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_22
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1857
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59818d436a60bc649b5ac8cde777d828
+      internalID: 2000864948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_23
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1857
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d9d65cf72a87c45ba6ca6aef9a63c2
+      internalID: -1840428263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_24
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1857
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd34af43df8155469779ac3bd4efa80
+      internalID: 1213460767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_25
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1857
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b758f488c5e8fa4da007b845c8f1ffb
+      internalID: 453699150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_26
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1857
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df2a4b5db90c684db75480119e14333
+      internalID: -1035220458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_27
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1857
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c7e394aad60264c9022e5cc9ef7736
+      internalID: 952713062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_28
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1857
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a89c0ddad780414c969631ae9ed8bdf
+      internalID: 665148725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_29
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1793
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30176fbf65281524bbdcdda494873bbe
+      internalID: -1942282745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_30
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1791
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1eaac72a52d6749ae450943fdda9f6
+      internalID: 515273612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_31
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1791
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c880e0620ebc7c43b863e13f738793d
+      internalID: 221556528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_32
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1791
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b6a4220e9e4f1489ebf4aaf80d5372
+      internalID: -140896449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_33
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1791
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073a736d84c2dd2479ad84dbfa42d019
+      internalID: 752088556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_34
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1791
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b43f556eb40850419db80b0be4c46b9
+      internalID: -784303467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_35
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1791
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6378978c0ef636b44b25ecd29887b2f8
+      internalID: 1233695811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_36
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1791
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45339b1bc8df064a83eddd922a350e7
+      internalID: 173572818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_37
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1729
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0201d519a7c9f0c4ca5ca6efd4b5e860
+      internalID: -1463842837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_38
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1729
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fda7541da76e0f479f54384bfa76bf6
+      internalID: 426324704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_39
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1729
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55fcf379a68a30468f4d8b40b437eba
+      internalID: 1241629099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_40
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1729
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b596b099a82d7f54a9a00995fbedd9bd
+      internalID: -412332496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_41
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1729
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0502a9883ea14504a983402ac39e7862
+      internalID: -677923755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_42
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1729
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943b1151e6aa3764b829ff6a7d1e52ed
+      internalID: -1533192365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_43
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1729
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e03e0de9e5af44f8cbc768a27ded9f
+      internalID: 1183208378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_44
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1729
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b2e0547767f694bb8d3daedefed765
+      internalID: 1571750641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_45
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1665
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f9e6ae42bb72347888aa428334a68f
+      internalID: 837154099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_46
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1666
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f73cbfb118629f45bc87c86a823952d
+      internalID: 1277807486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_47
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1666
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a0d794e51665c4a83c8cdbee628c2f
+      internalID: 612788245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_48
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1666
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f74f2a9e42b92248871e41c265b9c1b
+      internalID: -1674238660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_49
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1666
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163e5df1e3e360b4c9561e4b4b108780
+      internalID: 212991259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_50
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1666
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e690f88779b4e45a70edd5ea90298b
+      internalID: -1474750707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_51
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1666
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b770cade57bcc74dbcba86d76212923
+      internalID: 610416036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_52
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1666
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee605d88f95a074889be1e9907a5cea
+      internalID: 934964768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_53
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1601
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cc553739257be469efea2b1947c685
+      internalID: -24950983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_54
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1601
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfb3c31178d6844b8bbf2ec6456c61d
+      internalID: -563994046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_55
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1601
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2671fd061e113a4c933b021ca822f0b
+      internalID: 1959595823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_56
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1601
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525ec0ef980006841b026028680474c4
+      internalID: -363790301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_57
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1601
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3477e2dfa38f3034fb827374e39d3fed
+      internalID: 316268656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_58
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1601
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e105c49cebe8864c83ecc9a0787e7fb
+      internalID: -106699512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_59
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1601
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b776dbf635f4194d9e0b6ff2708c907
+      internalID: -1031340411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_60
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1601
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe02da4c71b26f4da2ca749b0eb4117
+      internalID: -1635251171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_61
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1537
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ec306ed40935f418f5d7ea4bcb3b70
+      internalID: -239614365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_62
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1538
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d08344b31dcf54c834aa80b5061bb3
+      internalID: 249803945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_63
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1537
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d94380bc137b804d8af3a45a722c926
+      internalID: 550602618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_64
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1536
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae280f73a02d00f4d828d037f500c749
+      internalID: -566360482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_65
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1537
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9807f775a45d6646b9293bc429dd3f0
+      internalID: -1118437044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_66
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1538
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36cc380411ede44e9da8ff846100bbb
+      internalID: 1399499973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_67
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1537
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba87acaf4cad9b6448ad843a1c614f63
+      internalID: -766591058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_68
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1536
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebef7cbd66195b74baecc0f7a8ea8beb
+      internalID: -581202075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_69
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1537
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffcf5a34e71405498af0f6d2844da99
+      internalID: 1270900203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_70
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1473
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7772bb18ba22f484a953bebb7db2eef2
+      internalID: -501583067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_71
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1473
+        width: 55
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69227fb7acea5034584534361a981988
+      internalID: -1966119700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_72
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1474
+        width: 54
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b7187a5297f45488e303f7d5a69fac
+      internalID: -1273928043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_73
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1474
+        width: 55
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0585fbce96146fe448ad6e1c039b4ac1
+      internalID: 1737148445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_74
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1473
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db248fc3e7d358b4a8f193e82f70d5c5
+      internalID: -2058551793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_75
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1473
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b800b1b2bdec984cb582301aa5fbb97
+      internalID: 1388447507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_76
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1473
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8d0f01e064b9845bcdc6abfa3afbc3
+      internalID: -1300074554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_77
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1473
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb37990aa80bc9043a07611f02100f7f
+      internalID: 109834153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_78
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1473
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0efb4ea70177e904c91c252b34b21e0f
+      internalID: -711094145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_79
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1409
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a232fadc23bf473419867877f262f5ec
+      internalID: -1782048286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_80
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1409
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b717a12ac814424a9118f270aa5b63b
+      internalID: -962927054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_81
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1408
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdf0e43b5cc0ae4fb7fa63759f01e23
+      internalID: -1484000635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_82
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1407
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcda0d21428d524ba9e90ee5fa45ee5
+      internalID: -1978366646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_83
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1408
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2971395ef37521d46a5722992b18d0ad
+      internalID: 703633721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_84
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1409
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c0a5efc33d4b24b8e648e1651fcf0b
+      internalID: 186291693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_85
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1408
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c683b909ddd734daf3d98194bfc4fe
+      internalID: -1761419722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_86
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1408
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e76644920e34584881b15aa587c7400
+      internalID: 888162090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_87
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1408
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b86f1f8311bae4794d9e4afb139aba
+      internalID: -1500967928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_88
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1345
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956828265cafcc3479abc7e1b5fa37aa
+      internalID: -1608735568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_89
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1345
+        width: 54
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30612348583e6f24d9c7c78f7bbefce8
+      internalID: 890928844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_90
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1346
+        width: 54
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da539b7157566b74ca78600c8d57059f
+      internalID: -410494984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_91
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1346
+        width: 54
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcb2dfa6b35a034a94caf3a5bdeab62
+      internalID: 2068818711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_92
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1345
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5005bcfecc88b349a5b5c425d8f92aa
+      internalID: 537908209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_93
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1345
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79037124081cc554e8b7c09240985b4d
+      internalID: 2131032489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_94
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1345
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b217b3d8fe7d34fa6a69abf19faf2e
+      internalID: 369987639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_95
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1345
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223b058dbb3630c4e8552357208003cc
+      internalID: -1339737947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_96
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1345
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1e3dfa960469d41a8524023850bf46
+      internalID: 1183749984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_97
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1281
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d6469ca3009a54ab10936a7a98fe54
+      internalID: -1850515336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_98
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1280
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1345aa328d9eb6e43982da18e0993afb
+      internalID: -248224956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_99
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1280
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1bf6948d6c83b47a4ad86fb903b37f
+      internalID: 1074204982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_100
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1280
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44200bb99932b494794e3229327d6128
+      internalID: 895928997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_101
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1280
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f176a89eb2cd1943a040ad0a33c2cfd
+      internalID: 1997131681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_102
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1280
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a51290bf44ac44784e06151f891a78
+      internalID: -955797473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_103
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1216
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7cfbdd321af684296530d98c4b04ff
+      internalID: -431397344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_104
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1216
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de8aa747bda7f44c9599766480a8293
+      internalID: 1970102449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_105
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1216
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2e99033afd85d44a5c9e026e4d885a
+      internalID: -570457142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_106
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1216
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e63985cbd59dd4a8a97c1729e2e913
+      internalID: 325000323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_107
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1216
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ffea2e680af504eb768c6262da0ca7
+      internalID: 1358652776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_108
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1216
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6298dc50b2779514d908aaf469fccf35
+      internalID: -956264454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_109
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1152
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f54bd7816e59004ca7e7456fc2e190d
+      internalID: 1177999951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_110
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1152
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8383cfbf29cba5248a3734314277c229
+      internalID: 707293254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_111
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1152
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e87172199a67346a04c90bb19481fb
+      internalID: -1287007821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_112
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1152
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f30cfeed6709e40a5133cf90161d2f
+      internalID: 1755594316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_113
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1152
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd18aa829507d24bbd73c9f02699348
+      internalID: -1899027216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_114
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1152
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a108531bd9a634d9de9e05b4031d88
+      internalID: -1526348063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_115
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1089
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c24435644830294b878e58cc0553e49
+      internalID: 1277109610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_116
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1089
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be926b567b9cc1419d161ef32a5c464
+      internalID: -706652305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_117
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1089
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2cd0ecbd814e84e98c2bcb4e10c840
+      internalID: 707844791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_118
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1089
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36930ca236ded645b4083098dd1c3ac
+      internalID: -1047511168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_119
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1089
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac9edb706c562647a50b30bea72b1ba
+      internalID: 1461900342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_120
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1089
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a83151f89efea458ecb7744af8473c
+      internalID: -1115467390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_121
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1025
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b68aaaa4b6d9844782e6c4a4b704d5a
+      internalID: -2028185889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_122
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1023
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728cf356da463b14baf452d2d1c0787b
+      internalID: -171711124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_123
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1023
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3628b1ea3e112c84a8e87f65b4b63f57
+      internalID: -176619699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_124
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1023
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab224e1e8b5cd148b004f9bcdffda8b
+      internalID: -1968026705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_125
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1023
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032bd275004f2244eb3849c6516911d2
+      internalID: 1174248867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_126
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1023
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8f2aed0da50244b99ec918dca785df
+      internalID: 799237796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_127
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1023
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403f58de71388e346b4210a41207ac1f
+      internalID: 83434908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_128
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1023
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4962664270ea14fbf7f214ced055cc
+      internalID: 735448258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_129
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1023
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d554e38677399534a87f7fa47708b25f
+      internalID: 232972603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_130
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1023
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ad51dcd7354be49ab13b1dbde98da2
+      internalID: 408060827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_131
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1023
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5f8c57f1ef99843bd696adb09c9c21
+      internalID: -2143301149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_132
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1023
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340604ca77e78d64da8cf7de5d460dfe
+      internalID: 48480396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_133
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1023
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f1e2ac006b1ac44afdfacc9b5e715b
+      internalID: 1419121554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_134
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 961
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673312dc4f1ec7b419159cda4524bb0b
+      internalID: -664130269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_135
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 961
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b939c6cc4f9a2414cb24ba5b17e0d4ce
+      internalID: -7277946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_136
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 961
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7669b0ffee70540968a07caac72e6e
+      internalID: -676311147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_137
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 961
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e03cf6450e86b64db4d9279ed1003e7
+      internalID: 1648337559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_138
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 961
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff14b903fd800e42a0c252bd4943baf
+      internalID: 87923286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_139
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 961
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee8f16c73301104b908e7c9ac860846
+      internalID: 613088398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_140
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 961
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcc13c8304f0e7478a5ae9ba879ffff
+      internalID: -1426711740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_141
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 961
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86531147b28bc9b44ba4a6b644692c9f
+      internalID: -840082861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_142
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 961
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce86187fc21454946a344d77fa0c5e7c
+      internalID: -851594223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_143
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 961
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0397b93180d7cc348880efc037493d70
+      internalID: 1798016803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_144
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 961
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1707b5ab74775f244b628e195c172280
+      internalID: 1885644555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_145
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 961
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5b47726cf06dc46886654b23d137d9
+      internalID: 375731400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_146
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 961
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226b6c955c7cbf04a8b358604f995745
+      internalID: -306239407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_147
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 897
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27aab7cd81a5084d8bef6493534346d
+      internalID: -781449117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_148
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 898
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8d06aa0990b604ca332dd9c7cc4db5
+      internalID: 348856141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_149
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 898
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e36d6d2ff75ec46a4dea14a3756c79
+      internalID: 1539539393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_150
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 897
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd1dd6c5456a5d429fdbbd2a46331f1
+      internalID: -1765627702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_151
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 897
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c2c7c8ec0ceaf47ae48adea09c85cc
+      internalID: 169680270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_152
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 897
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d0b456bf957364387b02ebfb6054f9
+      internalID: -212994514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_153
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 897
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1932decbe62e61841b077ec864388a2f
+      internalID: 986147752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_154
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 897
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca372be0f628d85438c922a078f6b22a
+      internalID: 204910243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_155
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 897
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40caf628fd135c458dd7ca40b7f8579
+      internalID: -1519103429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_156
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 897
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c055e255cbbc2149b003bf874e5623f
+      internalID: -502627789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_157
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 897
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6513a2f105ea64fa4d938edf0614dc
+      internalID: 1464156847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_158
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 897
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7674fbdb9abc642aa500315d00c140
+      internalID: 1220646257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_159
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 897
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c853b5dbd720dec4db05298e62dd0734
+      internalID: -968309322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_160
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 833
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8827bb33a2397d9498a9ac90e16bc54d
+      internalID: 1646118825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_161
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 833
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2ef6c885988f04db11ac7957e43e6e
+      internalID: -1556941476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_162
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 833
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69300c1bd0f610429107e0b1482f3af
+      internalID: 586517908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_163
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 833
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2485acc0b5740124b86dc39f3edeb156
+      internalID: -2040679251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_164
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 833
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd5c82017ad9e246ae601bed0a90778
+      internalID: -1400314333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_165
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 833
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acf6139f7851d342930e7ea62d742f7
+      internalID: -1126943707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_166
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 833
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da08a642b6d819b4d8eb2d27d67461db
+      internalID: -1807610074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_167
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 833
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61666d40218fbd4a9a53141eeb9eba7
+      internalID: -301117616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_168
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 833
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3aad04b957f54f40b578f57794ce7fa
+      internalID: 1917343994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_169
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 833
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97610ddf92c0d2a4fb9e2e26d60eb617
+      internalID: 760251306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_170
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 833
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1ad70dd4556c54a88dcb0c24591d7f
+      internalID: 576034719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_171
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 833
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a04b8dd133817743ba77f76bff38bc8
+      internalID: 75580992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_172
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 833
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc5d6e3300192e44a34d2d2c21da7e7
+      internalID: 445894608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_173
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 769
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406e6f31143926e449a5558b013b237e
+      internalID: -1503693263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_174
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 769
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1f0052d44cdd949a18f1ca54b967bd
+      internalID: 2144150474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_175
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 768
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8684e7a9c70c94abc2185d32103d0f
+      internalID: 1950429373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_176
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 767
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0d3ac39ce710c41b3b12abdced30b2
+      internalID: -641046238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_177
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 767
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9fd8e2571ce844288b128a21ca7390
+      internalID: 597747409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_178
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 767
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0feb76f2762c93458399ceef3a19ad0
+      internalID: -1047004013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_179
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 767
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdf17466cf287f4daa20ad6471d0dbf
+      internalID: 548392150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_180
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 768
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54da2ec58d638d241bbe3e9df11ee158
+      internalID: -1119470405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_181
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 767
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a068527e3e3aece4faffd0bb42c6e049
+      internalID: -1671970818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_182
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 767
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c136895ff7c2946b4c6520d8b703ee
+      internalID: 2029440431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_183
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 641
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2b79a6d0efee648b68d5189c623d1e
+      internalID: -101446499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_184
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 640
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ebda9d9c87fe148977bed3e766fbc4
+      internalID: -1306073745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_185
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 640
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca9bf0020e6d1f499463bc3db141807
+      internalID: -628051055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_186
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 640
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13b2cd75bacc0a488494c239a005086
+      internalID: -1773570997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_187
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 640
+        width: 83
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f728c984af415d04a9c040c589d04a7a
+      internalID: 858529467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_188
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 640
+        width: 84
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827ede8844e71d14a825d7fb1efecc9d
+      internalID: -1642893121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_189
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 446
+        width: 65
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74519a738a8178409212277b6d1e463
+      internalID: -1522498282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_190
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 449
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c04244f0fec95240b8aafe54d6d2244
+      internalID: -561590338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_191
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 449
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663115d376a629244bde688f06c53878
+      internalID: 629301613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_192
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 449
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcaa4287383f7f449c1a58592d97862
+      internalID: -1063201526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_193
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 449
+        width: 102
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5862fc335fffa74cb6f38eab63943ee
+      internalID: -876593619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_194
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 449
+        width: 105
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d2a76e876de624da1c5f656dc8c826
+      internalID: -32618192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_195
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 254
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48e0f774fb24a945accdca0eb227a56
+      internalID: 2101378807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_196
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 257
+        width: 55
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fe67194fd501041a0a8aa31cde4246
+      internalID: 411811621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_197
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 257
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8eaad8fd0940ca43be273451ec30c04
+      internalID: -1051576224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_198
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 257
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff62f5444871ef49bc068a9b3f61f57
+      internalID: -1441525718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_199
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 236
+        width: 83
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3b0c2fcc1798e419dc2a91dce03fbf
+      internalID: -1864177886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_200
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 239
+        width: 82
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0061fd167aa06504d8a18b39288a6ff5
+      internalID: -947287428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_201
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 61
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81d57bd84e66384d96360cde397cb7a
+      internalID: 2015035504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_202
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 64
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f3bf9e9e374fc4181ee4ccfebb61ac
+      internalID: -2118205622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_203
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 64
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc88a1859fa4cff44b21f5af45fc3e9b
+      internalID: 2127494976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_204
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 59
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8bf300c362baa4d85d302f3b2b8160
+      internalID: -726498579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_205
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 64
+        width: 101
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1afc7e083ce59438ab941353fbc907
+      internalID: 1338815692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hercules with sword_206
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 64
+        width: 103
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e5d5fc134a6e24fb5f989411a5c24c
+      internalID: 1468334644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Hercules with sword_111: -1287007821
+      Hercules with sword_68: -581202075
+      Hercules with sword_146: -306239407
+      Hercules with sword_116: -706652305
+      Hercules with sword_36: 173572818
+      Hercules with sword_189: -1522498282
+      Hercules with sword_78: -711094145
+      Hercules with sword_127: 83434908
+      Hercules with sword_9: 657774204
+      Hercules with sword_74: -2058551793
+      Hercules with sword_39: 1241629099
+      Hercules with sword_47: 612788245
+      Hercules with sword_72: -1273928043
+      Hercules with sword_198: -1441525718
+      Hercules with sword_155: -1519103429
+      Hercules with sword_6: 1434507634
+      Hercules with sword_147: -781449117
+      Hercules with sword_59: -1031340411
+      Hercules with sword_21: 252263654
+      Hercules with sword_170: 576034719
+      Hercules with sword_194: -32618192
+      Hercules with sword_98: -248224956
+      Hercules with sword_46: 1277807486
+      Hercules with sword_99: 1074204982
+      Hercules with sword_120: -1115467390
+      Hercules with sword_121: -2028185889
+      Hercules with sword_126: 799237796
+      Hercules with sword_62: 249803945
+      Hercules with sword_117: 707844791
+      Hercules with sword_186: -1773570997
+      Hercules with sword_1: 98919498
+      Hercules with sword_20: 779272349
+      Hercules with sword_73: 1737148445
+      Hercules with sword_181: -1671970818
+      Hercules with sword_51: 610416036
+      Hercules with sword_123: -176619699
+      Hercules with sword_77: 109834153
+      Hercules with sword_185: -628051055
+      Hercules with sword_71: -1966119700
+      Hercules with sword_29: -1942282745
+      Hercules with sword_66: 1399499973
+      Hercules with sword_176: -641046238
+      Hercules with sword_112: 1755594316
+      Hercules with sword_44: 1571750641
+      Hercules with sword_141: -840082861
+      Hercules with sword_53: -24950983
+      Hercules with sword_124: -1968026705
+      Hercules with sword_205: 1338815692
+      Hercules with sword_128: 735448258
+      Hercules with sword_173: -1503693263
+      Hercules with sword_104: 1970102449
+      Hercules with sword_67: -766591058
+      Hercules with sword_0: -728433607
+      Hercules with sword_138: 87923286
+      Hercules with sword_87: -1500967928
+      Hercules with sword_136: -676311147
+      Hercules with sword_125: 1174248867
+      Hercules with sword_19: 540861668
+      Hercules with sword_25: 453699150
+      Hercules with sword_182: 2029440431
+      Hercules with sword_97: -1850515336
+      Hercules with sword_175: 1950429373
+      Hercules with sword_154: 204910243
+      Hercules with sword_140: -1426711740
+      Hercules with sword_166: -1807610074
+      Hercules with sword_33: 752088556
+      Hercules with sword_91: 2068818711
+      Hercules with sword_37: -1463842837
+      Hercules with sword_135: -7277946
+      Hercules with sword_148: 348856141
+      Hercules with sword_159: -968309322
+      Hercules with sword_200: -947287428
+      Hercules with sword_10: -1665757206
+      Hercules with sword_49: 212991259
+      Hercules with sword_201: 2015035504
+      Hercules with sword_58: -106699512
+      Hercules with sword_158: 1220646257
+      Hercules with sword_204: -726498579
+      Hercules with sword_95: -1339737947
+      Hercules with sword_142: -851594223
+      Hercules with sword_168: 1917343994
+      Hercules with sword_82: -1978366646
+      Hercules with sword_84: 186291693
+      Hercules with sword_130: 408060827
+      Hercules with sword_178: -1047004013
+      Hercules with sword_202: -2118205622
+      Hercules with sword_79: -1782048286
+      Hercules with sword_184: -1306073745
+      Hercules with sword_187: 858529467
+      Hercules with sword_119: 1461900342
+      Hercules with sword_171: 75580992
+      Hercules with sword_11: -1515569344
+      Hercules with sword_193: -876593619
+      Hercules with sword_197: -1051576224
+      Hercules with sword_133: 1419121554
+      Hercules with sword_163: -2040679251
+      Hercules with sword_167: -301117616
+      Hercules with sword_183: -101446499
+      Hercules with sword_60: -1635251171
+      Hercules with sword_80: -962927054
+      Hercules with sword_52: 934964768
+      Hercules with sword_93: 2131032489
+      Hercules with sword_3: 1588115320
+      Hercules with sword_17: -1230860478
+      Hercules with sword_143: 1798016803
+      Hercules with sword_162: 586517908
+      Hercules with sword_61: -239614365
+      Hercules with sword_156: -502627789
+      Hercules with sword_56: -363790301
+      Hercules with sword_7: 798514484
+      Hercules with sword_110: 707293254
+      Hercules with sword_70: -501583067
+      Hercules with sword_105: -570457142
+      Hercules with sword_100: 895928997
+      Hercules with sword_35: 1233695811
+      Hercules with sword_50: -1474750707
+      Hercules with sword_160: 1646118825
+      Hercules with sword_206: 1468334644
+      Hercules with sword_4: -96043173
+      Hercules with sword_144: 1885644555
+      Hercules with sword_15: 2121800695
+      Hercules with sword_63: 550602618
+      Hercules with sword_145: 375731400
+      Hercules with sword_76: -1300074554
+      Hercules with sword_150: -1765627702
+      Hercules with sword_115: 1277109610
+      Hercules with sword_139: 613088398
+      Hercules with sword_81: -1484000635
+      Hercules with sword_134: -664130269
+      Hercules with sword_16: -926919166
+      Hercules with sword_107: 1358652776
+      Hercules with sword_179: 548392150
+      Hercules with sword_14: 2073622642
+      Hercules with sword_157: 1464156847
+      Hercules with sword_109: 1177999951
+      Hercules with sword_41: -677923755
+      Hercules with sword_65: -1118437044
+      Hercules with sword_113: -1899027216
+      Hercules with sword_38: 426324704
+      Hercules with sword_42: -1533192365
+      Hercules with sword_13: -131525781
+      Hercules with sword_31: 221556528
+      Hercules with sword_199: -1864177886
+      Hercules with sword_86: 888162090
+      Hercules with sword_48: -1674238660
+      Hercules with sword_177: 597747409
+      Hercules with sword_151: 169680270
+      Hercules with sword_192: -1063201526
+      Hercules with sword_137: 1648337559
+      Hercules with sword_191: 629301613
+      Hercules with sword_103: -431397344
+      Hercules with sword_101: 1997131681
+      Hercules with sword_131: -2143301149
+      Hercules with sword_88: -1608735568
+      Hercules with sword_92: 537908209
+      Hercules with sword_40: -412332496
+      Hercules with sword_55: 1959595823
+      Hercules with sword_165: -1126943707
+      Hercules with sword_5: -440593110
+      Hercules with sword_174: 2144150474
+      Hercules with sword_195: 2101378807
+      Hercules with sword_69: 1270900203
+      Hercules with sword_85: -1761419722
+      Hercules with sword_75: 1388447507
+      Hercules with sword_164: -1400314333
+      Hercules with sword_28: 665148725
+      Hercules with sword_149: 1539539393
+      Hercules with sword_54: -563994046
+      Hercules with sword_83: 703633721
+      Hercules with sword_89: 890928844
+      Hercules with sword_169: 760251306
+      Hercules with sword_188: -1642893121
+      Hercules with sword_23: -1840428263
+      Hercules with sword_8: 711203560
+      Hercules with sword_106: 325000323
+      Hercules with sword_18: 1301396201
+      Hercules with sword_190: -561590338
+      Hercules with sword_90: -410494984
+      Hercules with sword_129: 232972603
+      Hercules with sword_30: 515273612
+      Hercules with sword_114: -1526348063
+      Hercules with sword_27: 952713062
+      Hercules with sword_118: -1047511168
+      Hercules with sword_26: -1035220458
+      Hercules with sword_203: 2127494976
+      Hercules with sword_43: 1183208378
+      Hercules with sword_57: 316268656
+      Hercules with sword_108: -956264454
+      Hercules with sword_34: -784303467
+      Hercules with sword_180: -1119470405
+      Hercules with sword_45: 837154099
+      Hercules with sword_96: 1183749984
+      Hercules with sword_122: -171711124
+      Hercules with sword_22: 2000864948
+      Hercules with sword_102: -955797473
+      Hercules with sword_152: -212994514
+      Hercules with sword_153: 986147752
+      Hercules with sword_64: -566360482
+      Hercules with sword_32: -140896449
+      Hercules with sword_12: 344177077
+      Hercules with sword_24: 1213460767
+      Hercules with sword_2: -1100737829
+      Hercules with sword_161: -1556941476
+      Hercules with sword_196: 411811621
+      Hercules with sword_172: 445894608
+      Hercules with sword_94: 369987639
+      Hercules with sword_132: 48480396
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
