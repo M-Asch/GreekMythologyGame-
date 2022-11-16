@@ -11,6 +11,7 @@ public class Herc_Movement : MonoBehaviour
     public float shieldSpeed = 0f;
 
     public Rigidbody2D rigid;
+    public Animator animator;
     
     //private
     
@@ -28,7 +29,11 @@ public class Herc_Movement : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-        
+
+        animator.SetFloat("horizontal", movement.x);
+        animator.SetFloat("vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
+
         rigid.MovePosition(rigid.position + (movement * walkSpeed * Time.fixedDeltaTime));
         
     }
