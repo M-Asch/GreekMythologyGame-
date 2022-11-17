@@ -7,7 +7,7 @@ public class Herc_Movement : MonoBehaviour
 
     //public
 
-    public float walkSpeed = 18f;
+    public float walkSpeed = 6f;
     public float shieldSpeed = 0f;
 
     public Rigidbody2D rigid;

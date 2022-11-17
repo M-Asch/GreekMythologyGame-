@@ -5,30 +5,24 @@ using UnityEngine;
 public class Arrow_Travel : MonoBehaviour
 {
 
-    public float arrowSpeed = 24f;
-    public Rigidbody2D rigid;
-
-    private float arrowHort;
-    private float arrowVert;
-    public Vector2 arrowMovement;
-    public GameObject herc;
-    
-    private Herc_Movement hercM;
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        hercM = herc.GetComponent<Herc_Movement>();
-        
-        arrowMovement = hercM.movement;
-        Debug.Log(hercM.walkSpeed);
-    }
+    public float timeAlive = 0f;
 
     // Update is called once per frame
+    void Start(){
+
+    }
+
     void Update()
     {
-        rigid.MovePosition(rigid.position + (arrowMovement * arrowSpeed * Time.fixedDeltaTime));
-        //Debug.Log(arrowMovement);
+        if (timeAlive > 20){
+            Destroy(gameObject);
+        }
+        timeAlive += Time.fixedDeltaTime;
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        Debug.Log("i hit something");
+        Destroy(gameObject);
     }
 }
