@@ -12,16 +12,19 @@ public class Herc_Movement : MonoBehaviour
 
     public Rigidbody2D rigid;
     public Animator animator;
+
+    public float lastDirectionHor = 0;
+    public float lastDirectionVert = 1;
     
+    public Vector2 movement;
     //private
-    
-    private Vector2 movement;
+    private Herc_Weapons herc;
 
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        herc = GetComponent<Herc_Weapons>();
     }
 
     // Update is called once per frame
@@ -30,8 +33,17 @@ public class Herc_Movement : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        animator.SetFloat("horizontal", movement.x);
-        animator.SetFloat("vertical", movement.y);
+        if (!(Mathf.Abs(movement.x)  < 0.01)){                      //save last direction moved to preserve movment
+            lastDirectionHor = Input.GetAxisRaw("Horizontal");
+            lastDirectionVert = 0;
+        }
+        else if (!(Mathf.Abs(movement.y)  < 0.01)){
+            lastDirectionVert = Input.GetAxisRaw("Vertical");
+            lastDirectionHor = 0;
+        }
+
+        animator.SetFloat("horizontal", lastDirectionHor);
+        animator.SetFloat("vertical", lastDirectionVert);
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
         rigid.MovePosition(rigid.position + (movement * walkSpeed * Time.fixedDeltaTime));
