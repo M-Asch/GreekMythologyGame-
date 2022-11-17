@@ -13,15 +13,17 @@ public class Herc_Stats : MonoBehaviour
     public int exp = 0;
     public Herc_Weapons herc;
 
-    public float timer = 0;
-    public float prevTimer;
-    public float seconds = 0;
-    public float timeSinceCooldown = 0f;
+    public float timeFire = 0;
+    public float prevtimeFire;
+
+    public float timeLion = 0;
+    public float prevTimeLion;
 
     [SerializeField] public TMP_Text Ammo;
     [SerializeField] public GameObject gladius;
     [SerializeField] public GameObject bow;
     [SerializeField] public GameObject shield;
+    [SerializeField] public GameObject lionrelic;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,25 +33,28 @@ public class Herc_Stats : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*seconds = (Mathf.Round(timer%60));
-        if (seconds < 10){
-            Debug.Log((Mathf.Floor(timer/60).ToString()) + " : 0" + seconds.ToString());
-        }
-        else{
-            Debug.Log((Mathf.Floor(timer/60).ToString()) + " : " + seconds.ToString());
-        }*/
         Ammo.text = herc.currentAmmo.ToString();
         if (herc.currentAmmo == herc.maxAmmo){
-            timer = 0;
+            timeFire = 0;
         }
         else if (herc.currentAmmo < herc.maxAmmo){
-            prevTimer = timer;
-            timer += Time.deltaTime;
-            seconds = (Mathf.Round(timer%60));
-            Debug.Log((Mathf.Floor(timer/60).ToString()) + " : " + seconds.ToString());
-            if (prevTimer % herc.arrowCoolDown > 1 && timer % herc.arrowCoolDown < 1 && herc.currentAmmo + 1 <= herc.maxAmmo){
+            prevtimeFire = timeFire;
+            timeFire += Time.deltaTime;
+            if (prevtimeFire % herc.arrowCoolDown > 1 && timeFire % herc.arrowCoolDown < 1 && herc.currentAmmo + 1 <= herc.maxAmmo){
                 herc.currentAmmo += 1;
-                timer = 0;
+                timeFire = 0;
+            }
+        }
+
+        if (!herc.lionUsed){
+            timeLion = 0;
+        }
+        else if (herc.lionUsed){
+            prevTimeLion = timeLion;
+            timeLion += Time.deltaTime;
+            if (prevTimeLion % herc.lionCoolDown > 1 && timeLion % herc.lionCoolDown < 1){
+                herc.lionUsed = false;
+                timeLion = 0;
             }
         }
 
@@ -60,6 +65,9 @@ public class Herc_Stats : MonoBehaviour
         else if (herc.weapon == 2){
             bow.GetComponent<Renderer>().enabled = true;
             gladius.GetComponent<Renderer>().enabled = false;
+        }
+        else if (Input.GetKeyDown(KeyCode.R)){
+            lionrelic.GetComponent<Renderer>().enabled = true;
         }
     }
 

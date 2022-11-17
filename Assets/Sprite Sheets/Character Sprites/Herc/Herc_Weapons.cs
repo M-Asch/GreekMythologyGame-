@@ -8,25 +8,32 @@ public class Herc_Weapons : MonoBehaviour
     //Weapon Variables
     public int weapon;
 
+    //bow
     public float arrowspeed = 20f;
     public float arrowCoolDown = 5f;
-
-    public float swordDamage = 3f;
-    public float bowDamage = 1f;
-
-    public float attackTime = 0f;
-    public float swordAttackTime = 2.5f;
-    public float bowAttackTime = 4.5f;
-
     public float maxAmmo = 5f;
     public float currentAmmo = 5f;
+    public float bowDamage = 1f;
+    public float bowAttackTime = 4.5f;
+
+    //Sword
+    public float swordDamage = 3f;
+    public float attackTime = 0f;
+    public float swordAttackTime = 2.5f;
+
+    //Relics
+    public float currentSpell = 0f;
+    public float lionCoolDown = 15f;
+    public bool lionUsed = false;
     
     //Objects
     public GameObject Arrow;
     public Animator animator;
     public Vector3 rotation;
     public Vector2 HercPosition;
+
     private Herc_Movement herc;
+    private Herc_Stats hercS;
 
     //Melee hit detection
     public float meleeRange = 3f;
@@ -37,6 +44,7 @@ public class Herc_Weapons : MonoBehaviour
         weapon = 1;
         animator.SetInteger("weapon", 1);
         herc = GetComponent<Herc_Movement>();
+        hercS = GetComponent<Herc_Stats>();
         HercPosition = new Vector2(0f, 0f);
     }
 
@@ -68,6 +76,14 @@ public class Herc_Weapons : MonoBehaviour
                     meleeAttack(HercPosition);
                     attackTime = swordAttackTime;
                 }
+            }
+        }
+        if (attackTime <= 0){       //let animation/attack finish
+            animator.SetBool("relic_Casting", false);
+            if (Input.GetKeyDown(KeyCode.R) && !lionUsed){   //attack with weapons
+                animator.SetBool("relic_Casting", true);
+                attackTime = 5f;
+                relicCast();
             }
         }
         else{
@@ -114,6 +130,17 @@ public class Herc_Weapons : MonoBehaviour
         if (hit.collider != null)       //when herc hits with sword
         {
             Debug.Log(hit.collider.name);
+        }
+    }
+
+    void relicCast(){
+        switch(currentSpell){
+            default:
+                break;
+            case 0:
+                hercS.shields += 3;
+                lionUsed = true;
+                break;
         }
     }
 }
