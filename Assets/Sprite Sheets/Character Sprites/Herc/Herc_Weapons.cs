@@ -15,8 +15,9 @@ public class Herc_Weapons : MonoBehaviour
     public float attackTime = 0f;
     public float swordAttackTime = 6f;
     public float bowAttackTime = 12f;
+    
     //public float bowAttackTime = .25;
-
+    public GameObject Arrow;
 
     public Animator animator;
     
@@ -47,6 +48,7 @@ public class Herc_Weapons : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space)){   //attack with weapons
                 if (weapon == 2 && (herc.movement.sqrMagnitude < 0.01)){
                     animator.SetBool("is_Attacking", true);
+                    spawnArrow();
                     attackTime = bowAttackTime;
                 }
                 else if (weapon == 1){
@@ -60,7 +62,7 @@ public class Herc_Weapons : MonoBehaviour
         }
     }
 
-    void swordAttack(){
-
+    void spawnArrow(){
+        Instantiate(Arrow,new Vector2 (herc.rigid.position.x, herc.rigid.position.y), Quaternion.identity);
     }
 }

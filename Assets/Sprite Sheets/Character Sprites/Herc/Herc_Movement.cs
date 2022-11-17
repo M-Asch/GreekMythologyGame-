@@ -49,4 +49,9 @@ public class Herc_Movement : MonoBehaviour
         rigid.MovePosition(rigid.position + (movement * walkSpeed * Time.fixedDeltaTime));
         
     }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        Debug.Log("GameObject1 collided with " + col.name);
+    }
 }
