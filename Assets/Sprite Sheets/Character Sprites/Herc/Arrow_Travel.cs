@@ -20,7 +20,7 @@ public class Arrow_Travel : MonoBehaviour
         timeAlive += Time.fixedDeltaTime;
     }
 
-    void OnTriggerEnter2D(Collider2D col)
+    void OnTriggerEnter2D(Collider2D col)   //when arrow hits something
     {
         Debug.Log("i hit something");
         Destroy(gameObject);

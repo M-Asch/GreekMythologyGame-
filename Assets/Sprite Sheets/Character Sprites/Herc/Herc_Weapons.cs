@@ -9,13 +9,14 @@ public class Herc_Weapons : MonoBehaviour
     public int weapon;
 
     public float arrowspeed = 20f;
+    public float arrowCoolDown = 5f;
 
     public float swordDamage = 3f;
     public float bowDamage = 1f;
 
     public float attackTime = 0f;
-    public float swordAttackTime = 6f;
-    public float bowAttackTime = 9f;
+    public float swordAttackTime = 2.5f;
+    public float bowAttackTime = 4.5f;
 
     public float maxAmmo = 5f;
     public float currentAmmo = 5f;
@@ -57,7 +58,7 @@ public class Herc_Weapons : MonoBehaviour
         if (attackTime <= 0){       //let animation/attack finish
             animator.SetBool("is_Attacking", false);
             if (Input.GetKeyDown(KeyCode.Space)){   //attack with weapons
-                if (weapon == 2 && (herc.movement.sqrMagnitude < 0.01)){    //shoot arrow
+                if (weapon == 2 && (herc.movement.sqrMagnitude < 0.01) && (currentAmmo > 0)){    //shoot arrow
                     animator.SetBool("is_Attacking", true);
                     spawnArrow(HercPosition);
                     attackTime = bowAttackTime;
@@ -75,6 +76,7 @@ public class Herc_Weapons : MonoBehaviour
     }
 
     void spawnArrow(Vector2 HercPosition){
+        currentAmmo -= 1;
         if (herc.lastDirectionHor == 0){
             if (herc.lastDirectionVert > 0){
                 rotation = new Vector3(0f,0f,90f);
@@ -93,15 +95,23 @@ public class Herc_Weapons : MonoBehaviour
                 HercPosition.x += 1;
             }
         }
+        //StartCoroutine(pause());
         GameObject ar = Instantiate(Arrow, HercPosition, Quaternion.identity);
         ar.transform.Rotate(rotation);
         ar.GetComponent<Rigidbody2D>().AddForce(new Vector2(arrowspeed * herc.lastDirectionHor, arrowspeed * herc.lastDirectionVert), ForceMode2D.Impulse);
     }
 
+    IEnumerator pause()
+    {
+        Debug.Log(Time.time);
+        yield return new WaitForSeconds(5);
+        Debug.Log(Time.time);
+    }
+
     void meleeAttack(Vector2 HercPosition){
         Vector2 direction = new Vector2(herc.lastDirectionHor, herc.lastDirectionVert);
         RaycastHit2D hit = Physics2D.Raycast(HercPosition + direction, Vector2.zero, meleeRange);
-        if (hit.collider != null)
+        if (hit.collider != null)       //when herc hits with sword
         {
             Debug.Log(hit.collider.name);
         }

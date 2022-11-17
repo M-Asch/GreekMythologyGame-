@@ -191,6 +191,11 @@ MonoBehaviour:
   health: 6
   shields: 3
   exp: 0
+  herc: {fileID: 0}
+  timer: 0
+  prevTimer: 0
+  seconds: 0
+  Ammo: {fileID: 0}
 --- !u!61 &7757791496508535693
 BoxCollider2D:
   m_ObjectHideFlags: 0
