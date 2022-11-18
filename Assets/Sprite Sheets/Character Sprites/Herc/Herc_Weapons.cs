@@ -20,6 +20,7 @@ public class Herc_Weapons : MonoBehaviour
     public float swordDamage = 3f;
     public float attackTime = 0f;
     public float swordAttackTime = 2.5f;
+    public float meleeRange = 3f;
 
     //Relics
     public float currentSpell = 0f;
@@ -35,12 +36,17 @@ public class Herc_Weapons : MonoBehaviour
     private Herc_Movement herc;
     private Herc_Stats hercS;
 
-    //Melee hit detection
-    public float meleeRange = 3f;
-
+    //shield stuff 
+    public float shieldRange = 2f;
+    public float shieldCoolDown = 5f;
+    public bool shieldUsed = false;
+    Vector2 boxsize = new Vector2(2.0f, 2.0f);
+    //public Vector2 shieldSize = Vector2();
+    
     // Start is called before the first frame update
     void Start()
     {
+
         weapon = 1;
         animator.SetInteger("weapon", 1);
         herc = GetComponent<Herc_Movement>();
@@ -84,6 +90,14 @@ public class Herc_Weapons : MonoBehaviour
                 animator.SetBool("relic_Casting", true);
                 attackTime = 5f;
                 relicCast();
+            }
+        }
+        if (attackTime <= 0){       //let animation/attack finish
+            //animator.SetBool("relic_Casting", false);
+            if (Input.GetKeyDown(KeyCode.F) && !shieldUsed){   //attack with weapons
+                //animator.SetBool("relic_Casting", true);
+                attackTime = 5f;
+                shieldCast();
             }
         }
         else{
@@ -138,9 +152,19 @@ public class Herc_Weapons : MonoBehaviour
             default:
                 break;
             case 0:
-                hercS.shields += 3;
+                hercS.shields += 2;
                 lionUsed = true;
                 break;
+        }
+    }
+
+    void shieldCast(){
+        shieldUsed = true;
+        Vector2 direction = new Vector2(herc.lastDirectionHor, herc.lastDirectionVert);
+        RaycastHit2D hit = Physics2D.BoxCast(HercPosition + (direction * 3), boxsize, 0f, direction, shieldRange);
+        if (hit.collider != null)       //when herc hits with sword
+        {
+            Debug.Log(hit.collider.name);
         }
     }
 }

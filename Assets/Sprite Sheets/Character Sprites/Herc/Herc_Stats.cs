@@ -7,19 +7,28 @@ using TMPro;
 public class Herc_Stats : MonoBehaviour
 {
 
+    //health/shield
     public float health = 6;
-    public int shields = 3;
+    public int shields = 0;
 
     public int exp = 0;
     public Herc_Weapons herc;
 
+    //arrow timing
     public float timeFire = 0;
     public float prevtimeFire;
 
+    //lion relic timing
     public float timeLion = 0;
     public float prevTimeLion;
 
+    //shield timing
+    public float timeshield = 0;
+    public float prevTimeshield;
+
     [SerializeField] public TMP_Text Ammo;
+    [SerializeField] public TMP_Text Armor;
+
     [SerializeField] public GameObject gladius;
     [SerializeField] public GameObject bow;
     [SerializeField] public GameObject shield;
@@ -46,6 +55,7 @@ public class Herc_Stats : MonoBehaviour
             }
         }
 
+        Armor.text = shields.ToString();
         if (!herc.lionUsed){
             timeLion = 0;
         }
@@ -55,6 +65,18 @@ public class Herc_Stats : MonoBehaviour
             if (prevTimeLion % herc.lionCoolDown > 1 && timeLion % herc.lionCoolDown < 1){
                 herc.lionUsed = false;
                 timeLion = 0;
+            }
+        }
+
+        if (!herc.shieldUsed){
+            timeshield = 0;
+        }
+        else if (herc.shieldUsed){
+            prevTimeshield = timeshield;
+            timeshield += Time.deltaTime;
+            if (prevTimeshield % herc.shieldCoolDown > 1 && timeshield % herc.shieldCoolDown < 1){
+                herc.shieldUsed = false;
+                timeshield = 0;
             }
         }
 
